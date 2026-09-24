@@ -57,9 +57,9 @@ a {
 
 section {
   display: flex;
-  align-items: center;
-  gap: 60px;
-  padding: 80px 10%;
+  align-items: flex-start;
+  gap: 80px;
+  padding: 100px 10%;
 }
 
 /* ------------------------------ IMAGE --------------------------------*/
@@ -80,4 +80,5 @@ img {
   max-width: 650px;
   font-size: 1.15rem;
   line-height: 1.6;
+  padding-top: 20px
 }
