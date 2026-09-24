@@ -65,10 +65,13 @@ section {
 /* ------------------------------ IMAGE --------------------------------*/
 
 img {
-  width: 420px; /* bigger photo */
-  border-radius: 12px;
-  object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* optional enhancement */
+  width: 420px;          /* large, confident portrait */
+  object-fit: contain;   /* keeps natural edges */
+  background: transparent;
+  box-shadow: none;      /* removes the box effect */
+  border-radius: 0;      /* natural edges, no frame */
+  margin-top: -10px;     /* subtle lift */
+  transform: translateY(0); /* keeps it feeling natural */
 }
 
 /* ------------------------------ TEXT BLOCK --------------------------------*/
